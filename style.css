@@ -1,0 +1,55 @@
+@charset "utf-8";
+/* CSS Document */
+body{font-family: 'Source Sans Pro', sans-serif;font-size:14px;line-height:18px;color:#000;background: fixed 0 0 #fff ;background-image:url(Images/Background1.jpg)}
+
+.form_panel{
+	text-align:center;
+	position: fixed;
+	top:30%;
+    z-index: -1;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	width:100%;
+	}
+.form_panel p{
+	font-family:"Courier New", Courier, monospace;
+	font-size:24px;
+	color:#CCC;
+	font-weight:bolder;
+	}	
+
+.form_panel input[type=text]{
+	border: 2px solid;
+    border-radius: 25px;
+	border-color:#CCC;
+	height:20px;
+	width:30%;
+	text-align:center;
+	background:bottom;
+	color:#FFF;
+	}
+.form_panel input[type= password]{
+	border: 2px solid;
+    border-radius: 25px;
+	border-color:#CCC;
+	height:20px;
+	width:30%;
+	text-align:center;
+	background:bottom;
+	color:#FFF;
+	}
+.form_panel input[type=text]:hover{
+	border-color:#333;
+	}
+.form_panel input[type= password]:hover{
+	border-color:#333;
+	}
+.form_panel input[type=submit]{
+	background-color:#666;
+	color:#FFF;
+	border: 2px solid;
+    border-radius: 25px;	
+	}
+.form_panel input[type=submit]:hover{
+	background-color:#333;
+	color:#FFF;	
+	}
